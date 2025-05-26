@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <title>个人简历</title>
+    <style>
+        /* 重置一些默认样式 */
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+            box-sizing: border-box;
+        }
+
+        body {
+       .resume {
+            border: 1px solid black;
+            width: 80%;
+            margin: 20px auto;
+        }
+
+       .resume h2 {
+            text-align: center;
+            padding: 10px;
+            transition: transform 0.3s ease;
+        }
+
+       .resume h2:hover {
+            transform: translate(5px, -5px) rotate(5deg);
+        }
+
+       .info-row {
+            display: flex;
+            border-bottom: 1px solid black;
+            padding: 10px;
+        }
+
+       .info-label {
+            width: 100px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+        }
+
+       .info-content {
+            flex: 1;
+        }
+
+       .icon {
+            margin-right: 5px;
+            transition: transform 0.3s ease;
+        }
+
+       .icon:hover {
+            transform: translate(3px, -3px) rotate(3deg);
+        }
+
+       .photo {
+            width: 100px;
+            height: auto;
+            margin-left: 10px;
+        }
+
+       .skill-certificate,
+       .hobby,
+       .project-experience,
+       .self-evaluation {
+            padding: 10px;
+            border-bottom: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="resume">
+        <h2>个人简历</h2>
+        <div class="info-row">
+            <div class="info-label">姓名</div>
+            <div class="info-content">王蕊</div>
+            <div class="info-label">性别</div>
+            <div class="info-content">
+                <select>
+                    <option value="男">男</option>
+                    <option value="女">女</option>
+                </select>
+            </div>
+            <div class="info-label">年龄</div>
+            <div class="info-content">20</div>
+            <img class="photo" src="1.jpg" alt="个人照片">
+        </div>
+        <div class="info-row">
+            <div class="info-label"><span class="icon">&#127968;</span> 籍贯</div>
+            <div class="info-content">黑河</div>
+            <div class="info-label"><span class="icon">&#9742;</span> 联系电话</div>
+            <div class="info-content">18845692821</div>
+            <div class="info-label"><span class="icon">&#9993;</span> 电子邮箱</div>
+            <div class="info-content">2795366012@qq.com</div>
+        </div>
+        <div class="info-row">
+            <div class="info-label"><span class="icon">&#128217;</span> 学历</div>
+            <div class="info-content">
+                <select>
+                    <option value="小学">小学</option>
+                    <option value="初中">初中</option>
+                    <option value="高中">高中</option>
+                    <option value="本科">本科</option>
+                    <option value="专科">专科</option>
+                </select>
+            </div>
+            <div class="info-label"><span class="icon">&#127942;</span> 健康状况</div>
+            <div class="info-content">健康</div>
+            <div class="info-label"><span class="icon">&#128143;</span> 婚姻状况</div>
+            <div class="info-content">
+                <select>
+                    <option value="未婚">未婚</option>
+                    <option value="已婚">已婚</option>
+                </select>
+            </div>
+        </div>
+        <div class="info-row">
+            <div class="info-label"><span class="icon">&#128269;</span> 求职意向</div>
+            <div class="info-content">
+                <select>
+                    <option value="编程师">编程师</option>
+                    <option value="其他">其他</option>
+                </select>
+            </div>
+            <div class="info-label"><span class="icon">&#128221;</span> 专业</div>
+            <div class="info-content">
+                <select>
+                    <option value="软件工程">软件工程</option>
+                    <option value="计算机科学与技术">计算机科学与技术</option>
+                    <option value="电气工程">电气工程</option>
+                    <option value="其他">其他</option>
+                </select>
+            </div>
+            <div class="info-label"><span class="icon">&#127940;</span> 毕业院校</div>
+            <div class="info-content">黑河市第八中学</div>
+        </div>
+        <div class="skill-certificate">
+            <div class="info-label">技能证书</div>
+            <div class="info-content">无</div>
+        </div>
+        <div class="hobby">
+            <div class="info-label">个人特长与爱好</div>
+            <div class="info-content">平常喜欢打羽毛球，看小说</div>
+        </div>
+        <div class="project-experience">
+            <div class="info-label">项目经历</div>
+            <div class="info-content">曾在高中时担任过班长及学习委员职务，进入大学后担任过学习委员，现在学院学生会内担任部长一职。</div>
+        </div>
+        <div class="self-evaluation">
+            <div class="info-label">自我评价</div>
+            <div class="info-content">本人乐观开朗积极，对待事情态度认真，遇到问题不放弃，能正面面的问题；在与同学交往过程中对人友好，尽力为他人着想；同时存在不足，进入大学后对学习要求变低导致出现挂科现象，以后将端正学习态度，提高对自己的的要求，将挂科科目重新学习并争取取得好成绩。</div>
+        </div>
+    </div>
+</body>
+
+</html>
